@@ -74,7 +74,7 @@
                 <div class="col-md-8">
                     <p>
                 I am a fourth year PhD student in Department of Statistics at Iowa State University and actively looking for full-time opportunities in data science, applied statistics and machine learning.
-		My research focus on using functional principal component analysis technique to solve problems on asynchronous longitudinal data and remote sensing dataset. 
+		My research focus on using functional principal component analysis (FPCA) technique to solve problems on asynchronous longitudinal data and remote sensing dataset. 
 	        Applications mainly include randiance imputation, land fraction estimation, change-point detection for urbanization process and identifying risk factors for Alzheimer's disease.
 		<br>
 	        I am strategic, positive and motivated by making big impact to our community and people around me. 
@@ -158,7 +158,7 @@
 
             <div data-date="August 2017 – May 2018">
                 <h3>After Inc.</h3>
-                <h4>R Shiny Developer</h4>
+                <h4>R Shiny Developer (Remote)</h4>
                 <p>
                     Develop client reports with R Shiny and other tools, create reporting templates, research new Shiny features and document best practices.
                 </p>
@@ -193,11 +193,15 @@
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>Regression of Sparse Asychronous Longitudinal Data via Lasso</h3>
+                        <h3>Regression and Variable Selection in Asynchronous Longitudinal Data using Multivariate Functional Principal Component Analysis</h3>
                         <p>
-                            Motivated by <a href="https://www.icpsr.umich.edu/icpsrweb/ICPSR/series/00253">Study of Women's Health Across the Nation</a> dataset, we would like to analyze how hundreds of variables from FFQ and physical measurements influence people's cognitve function performance. Based on the data structure, a FPCA based modification of the Lasso for doing regression with asychronous longitudinal data was proposed to select correct predictors and estimate coefficients.
+                        Motivated by <a href="https://www.icpsr.umich.edu/icpsrweb/ICPSR/series/00253">Study of Women's Health Across the Nation</a> dataset, 
+			we would like to analyze how hundreds of variables from FFQ and physical measurements influence people's cognitve function performance.
+			However, the exposure variables, including nutrient intake, and the outcomes of cognitive tests, were measured asynchronously. Naive analyses ignoring the mistiming issue will lead to biased results and wrong conclusion. 
+			Based on the data structure, a sparse FPCA based calibration of asynchronous longitudinal data with cross-correlated variables was proposed to achieve nice asymptotic properties in regression and variable selection.
+		
                         </p>
-                        <a href="https://chxyself25.github.io/proof.pdf">View Project</a>
+                        <a>View Project</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
@@ -209,11 +213,13 @@
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>Change-point Detection for Sparse Functional Data with Application on Urbanization Process</h3>
+                        <h3>Functional Change-point Detection for Multivariate Sparse Functional Data with Application on Urban Dynamics</h3>
                         <p>
-                            To detect starting and ending years of gradual change in urbanization process, we proposed a functional approach based on multivariate FPCA and cumsum statistics to detect change-points by using multiple time series in <a href="https://landsat.usgs.gov/landsat-data-access">Landsat</a> dataset. It performs better than the existing regression method in terms of accuracy within one year tolerance.
+			Detecting an urbanization process and estimating when the urbanization was happening is critical in the study of urbanization and will facilitate the development of urban growth models and the investigation of further environmental impacts.
+                        We developed and implemented a class of sparse functional change-point detection methods based on FPCA, CUSUM and ensemble to test and estimate the change-year in urbanization process by using <a href="https://landsat.usgs.gov/landsat-data-access">Landsat</a> dataset, 
+			which performed better than the existing regression-based method.
                         </p>
-                        <a href="https://chxyself25.github.io/Change-pointSlides.pdf">View Project</a>
+                        <a href="https://chxyself25.github.io/JSM_poster_4.pdf">View Project</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
@@ -260,16 +266,16 @@
         <ul>
             <li>R</li>
             <li>Python</li>
-            <li>SAS</li>
-			<li>Matlab</li>
-			<li>R Shiny</li>
-			<li>Shell Script</li>
+            <li>SQL</li>
+	    <li>SAS</li>
+	   <li>Matlab</li>
+	   <li>Shell Script</li>
             <li>C++</li>
-			<li>SQL</li>
-			<li>HTML</li>
-			<li>Latex</li>
-			<li>Hadoop</li>
-            <li>Java</li>
+		<li>R Shiny</li>
+		<li>HTML</li>
+		<li>Latex</li>
+		<li>Spark</li>
+		<li>ArcGIS</li>
         </ul>
     </div>
     <!-- End #skills -->
